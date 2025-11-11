@@ -1,0 +1,27 @@
+{
+  "name": "tasker-http-utils",
+  "version": "1.0.0",
+  "description": "HTTP utilities for tasker-sequential with retry logic, response parsing, and request building",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./retry": "./lib/retry-config.js",
+    "./fetch": "./lib/fetch-retry.js",
+    "./response": "./lib/response-parser.js",
+    "./request": "./lib/request-builder.js"
+  },
+  "scripts": {
+    "test": "node tests/test-http-utils.js"
+  },
+  "keywords": [
+    "tasker",
+    "http",
+    "retry",
+    "fetch",
+    "response-parser",
+    "utilities"
+  ],
+  "author": "",
+  "license": "MIT"
+}
