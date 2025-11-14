@@ -1,7 +1,7 @@
 {
-  "name": "tasker-http-utils",
+  "name": "sequential-http-utils",
   "version": "1.0.0",
-  "description": "HTTP utilities for tasker-sequential with retry logic, response parsing, and request building",
+  "description": "HTTP utilities for sequential-runner with retry logic, response parsing, and request building",
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -15,7 +15,7 @@
     "test": "node tests/test-http-utils.js"
   },
   "keywords": [
-    "tasker",
+    "sequential",
     "http",
     "retry",
     "fetch",
