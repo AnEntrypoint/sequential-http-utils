@@ -11,9 +11,10 @@
     "./response": "./lib/response-parser.js",
     "./request": "./lib/request-builder.js"
   },
-  "scripts": {
-    "test": "node tests/test-http-utils.js"
-  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "keywords": [
     "sequential",
     "http",
@@ -22,6 +23,13 @@
     "response-parser",
     "utilities"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "lanmower",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-http-utils.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
