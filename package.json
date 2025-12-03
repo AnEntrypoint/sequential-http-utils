@@ -1,5 +1,5 @@
 {
-  "name": "sequential-http-utils",
+  "name": "@sequential/sequential-http-utils",
   "version": "1.0.0",
   "description": "HTTP utilities for sequential-runner with retry logic, response parsing, and request building",
   "type": "module",
@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/**/*.js"
   }
 }
